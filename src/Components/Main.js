@@ -10,7 +10,7 @@ class Main extends Component {
       <div className="main">
         <h2>Post Main Manager</h2>
 
-        <Link to="/New">
+        <Link to="/Post-Manager-App-with-Redux/New">
           <button className="btn-big">Add Post "Click Me!"</button>
         </Link>
 

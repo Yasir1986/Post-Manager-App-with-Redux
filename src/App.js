@@ -32,22 +32,22 @@ class App extends Component {
           <Switch>
             <Route
               exact
-              path="/"
+              path="/Post-Manager-App-with-Redux/"
               render={props => <Main {...props} />}
             />
             <Route
               exact
-              path="/Details/:postID"
+              path="/Post-Manager-App-with-Redux/Details/:postID"
               render={props => <Details {...props} />}
             />
             <Route
               exact
-              path="/New"
+              path="/Post-Manager-App-with-Redux/New"
               render={props => <New {...props} />}
             />
             <Route
               exact
-              path="/Edit/:postID"
+              path="/Post-Manager-App-with-Redux/Edit/:postID"
               render={props => <Edit {...props} />}
             />
             {/* <Route path="/Footer" component = {Footer} /> */}

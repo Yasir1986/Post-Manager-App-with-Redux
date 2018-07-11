@@ -7,7 +7,7 @@ const Shortcut = props => {
       <div className="full-shortcut">
     <div className="post-shortcut" key={props.index}>
      
-      <Link to={`/Details/${props.postElement.id}`}>
+      <Link to={`/Post-Manager-App-with-Redux/Details/${props.postElement.id}`}>
        
         <span className="post-shortcut-category">
          {/* {props.postElement.title}, Title:

@@ -108,7 +108,7 @@ class New extends Component {
         <br />
 
         <span>
-          <Link to="/">
+          <Link to="/Post-Manager-App-with-Redux/">
             <button
               className="btn-big"
               disabled={this.isSubmitDisabled(errors)}
@@ -118,7 +118,7 @@ class New extends Component {
             </button>
           </Link>
 
-          <Link to="/">
+          <Link to="/Post-Manager-App-with-Redux/">
             <button className="btn-big">Cancel</button>
           </Link>
         </span>

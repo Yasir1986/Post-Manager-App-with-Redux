@@ -20,7 +20,7 @@ const Details = props => {
 
       <div className="btn-div">
 
-      <Link to="/">
+      <Link to="/Post-Manager-App-with-Redux/">
         <button
           className="btn-big"
           onClick={() => {
@@ -31,11 +31,11 @@ const Details = props => {
         </button>
       </Link>
 
-      <Link to={`/Edit/${postID}`}>
+      <Link to={`/Post-Manager-App-with-Redux/Edit/${postID}`}>
         <button className="btn-big">Edit Post</button>
       </Link>
 
-      <Link to="/">
+      <Link to="/Post-Manager-App-with-Redux/">
         <button className="btn-big">Back to Posts</button>
       </Link>
 
