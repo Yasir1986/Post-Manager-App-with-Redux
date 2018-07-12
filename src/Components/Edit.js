@@ -45,10 +45,10 @@ class Edit extends Component {
       title: /^[a-zA-Z\s]*$/.test(title)
         ? ""
         : "you can have only alphabetic characters",
-      category: /^[a-zA-Z]*$/.test(category)
+      category: /^[a-zA-Z\s]*$/.test(category)
         ? ""
         : "you can have only alphabetic characters",
-      post: /^[a-zA-Z]*$/.test(post)
+      post: /^[a-zA-Z\s0-9]*$/.test(post)
         ? ""
         : "you can have only alphabetic characters"
     };
