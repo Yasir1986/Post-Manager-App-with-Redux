@@ -12,10 +12,6 @@ import Footer from "./Components/Footer";
 import "./App.css"
 
 class App extends Component {
-  // constructor(props) {
-  //   super(props);
-  // }
-
   deletePost = postIndex => {
     console.log("index:", postIndex);
     const tempArray = [...this.state.posts];
