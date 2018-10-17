@@ -46,7 +46,6 @@ class App extends Component {
               path="/Post-Manager-App-with-Redux/Edit/:postID"
               render={props => <Edit {...props} />}
             />
-            {/* <Route path="/Footer" component = {Footer} /> */}
           </Switch>
         </Router>
         
